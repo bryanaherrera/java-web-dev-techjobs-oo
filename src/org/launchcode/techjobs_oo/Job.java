@@ -49,26 +49,6 @@ public class Job {
 
     @Override
     public String toString() {
-//        return  "ID: " + id + "\n" +
-//                "Name: " + name + "\n" +
-//                "Employer: " + employer + "\n" +
-//                "Location: " + location + "\n" +
-//                "Position Type: " + positionType + "\n" +
-//                "Core Competency: " + coreCompetency + "\n"
-//                ;
-//        if(!name.equals("") && employer != null && location != null && positionType != null && coreCompetency!= null){
-//            return "\n" +
-//                    "ID: " + id + "\n" +
-//                    "Name: " + name + "\n" +
-//                    "Employer: " + employer + "\n" +
-//                    "Location: " + location + "\n" +
-//                    "Position Type: " + positionType + "\n" +
-//                    "Core Competency: " + coreCompetency + "\n";
-//        }
-//        else if(name.equals("") && employer == null && location == null && positionType == null && coreCompetency== null){
-//            return "OOPS! This job does not seem to exist.";
-//        }
-//        else
         if(name.equals("") && employer.getValue().equals("") && location.getValue().equals("") && positionType.getValue().equals("") && coreCompetency.getValue().equals("")) {
             return "OOPS! This job does not seem to exist.";
         } else {
